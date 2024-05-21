@@ -1,0 +1,2 @@
+recursive-include tutorcloudfront/patches *
+recursive-include tutorcloudfront/templates *

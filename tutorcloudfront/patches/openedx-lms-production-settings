@@ -1,0 +1,3 @@
+{%- if CLOUDFRONT_LMS_DOMAIN %}
+STATIC_URL = "https://{{ CLOUDFRONT_LMS_DOMAIN }}/static/"
+{% endif %}

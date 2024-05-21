@@ -1,0 +1,3 @@
+{%- if CLOUDFRONT_CMS_DOMAIN %}
+STATIC_URL = "https://{{ CLOUDFRONT_CMS_DOMAIN }}/static/studio/"
+{% endif %}
