@@ -43,7 +43,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.7",
     install_requires=[
-        "tutor>=17.0.0,<18.0.0",
+        "tutor>=17,<19",
         "boto3",
     ],
     extras_require={
@@ -51,7 +51,7 @@ setup(
             "black",
             "mypy",
             "pylint",
-            "tutor[dev]>=17.0.0,<18.0.0",
+            "tutor[dev]>=17,<19",
         ]
     },
     entry_points={"tutor.plugin.v1": ["cloudfront = tutorcloudfront.plugin"]},
